@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --fonte-marca: "Mitr", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #9378dd;
+    font-family: var(--fonte-marca);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #21b4b9; */
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item:hover {
+    filter: invert(100%) grayscale(0%) saturate(95%);
+}
+
+.tdm-botao {
+    max-width: 5em;
+    margin: 3px;
+}
+
+.item__titulo {
+    margin: 3px;
+    color: #000;
+}
+
+.logo {
+    width: 10em;
+}
+
+.marca {
+    font-family: var(--fonte-marca);
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+}
